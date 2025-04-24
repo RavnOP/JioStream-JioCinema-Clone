@@ -163,7 +163,7 @@ async function ShowGrid({
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-3 md:gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-3 md:gap-4">
         {combinedResults.length > 0 ? (
           combinedResults.map((show: any) => (
             <Link
@@ -324,7 +324,7 @@ function Pagination({
 }
 function ShowGridSkeleton() {
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-3 md:gap-4">
+    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-3 md:gap-4">
       {Array(40)
         .fill(0)
         .map((_, i) => (

@@ -36,13 +36,6 @@ export default function MoviesPage({
             <ChevronLeft className="h-5 w-5" />
           </Link>
           <h1 className="text-xl sm:text-2xl font-bold">Movies</h1>
-          <Button
-            variant="outline"
-            size="sm"
-            className="ml-auto border-gray-700 gap-1 h-8"
-          >
-            <Filter className="h-4 w-4" /> Filter
-          </Button>
         </div>
 
         <div className="overflow-x-auto pb-2 mx-auto px-3 sm:-mx-4 sm:px-4">
@@ -164,7 +157,7 @@ async function MovieGrid({
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-3 md:gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-3 md:gap-4">
         {combinedResults.length > 0 ? (
           combinedResults.map((movie: any) => (
             <Link
@@ -318,7 +311,7 @@ function Pagination({
 
 function MovieGridSkeleton() {
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-3 md:gap-4">
+    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-9 gap-3 md:gap-4">
       {Array(40)
         .fill(0)
         .map((_, i) => (

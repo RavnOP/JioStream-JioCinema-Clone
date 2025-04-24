@@ -27,7 +27,7 @@ export function MobileNavigation() {
 
   return (
     <nav
-      className={`md:hidden fixed bottom-0 left-0 right-0 mx-auto w-[90%] bg-gray-900/90 backdrop-blur-lg border-t border-gray-800 rounded-2xl p-2 shadow-md transition-transform duration-200 ${
+      className={`md:hidden  fixed bottom-0 left-0 right-0 mx-auto w-[90%] bg-gray-900/90 backdrop-blur-lg border-t border-gray-800 rounded-2xl p-2 shadow-md transition-transform duration-200 ${
         isVisible ? "translate-y-0" : "translate-y-full"
       }`}
     >

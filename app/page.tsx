@@ -131,7 +131,6 @@ export default function LandingPage() {
 
             <div className="max-w-xl mx-auto mb-8 relative">
               <div className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 z-10">
-                <Search className="h-5 w-5" />
               </div>
               <LandingSearchBar />
             </div>

@@ -45,13 +45,13 @@ export function MovieRow({ title, endpoint, viewAllLink }: MovieRowProps) {
           </Link>
         </Button>
       </div>
-      <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-3 md:gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-9 gap-3 md:gap-4">
         {isLoading
           ? Array(16)
               .fill(0)
               .map((_, i) => <div key={i} className="aspect-[2/3] bg-gray-800 rounded-lg animate-pulse" />)
           : data.results && data.results.length > 0
-            ? data.results.slice(0,16).map((item: any) => {
+            ? data.results.slice(0,18).map((item: any) => {
                 const contentType = isTV || item.media_type === "tv" ? "show" : "movie"
                 const path = `/${contentType}/${item.id}`
 
@@ -104,7 +104,7 @@ export function MovieRow({ title, endpoint, viewAllLink }: MovieRowProps) {
                   </Link>
                 )
               })
-            : Array(16)
+            : Array(18)
                 .fill(0)
                 .map((_, i) => <div key={i} className="aspect-[2/3] bg-gray-800 rounded-lg" />)}
       </div>
