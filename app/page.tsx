@@ -31,9 +31,26 @@ import { FAQSection } from "./faq-section"
 import { DisclaimerSection } from "./disclaimer-section"
 
 export const metadata: Metadata = {
-  title: "JioStream - Open Source Streaming Platform | Watch Movies & TV Shows",
-  description:
-    "JioStream is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this educational project.",
+  title: 'JioStream',
+  description: 'Open Source Streaming Platform',
+  icons: {
+    icon: [
+      {
+        url: '/play.png',
+        sizes: 'any',
+      },
+      {
+        url: '/play(1).png',
+        type: 'image/png',
+        sizes: '32x32',
+      },
+    ],
+    apple: {
+      url: '/play.png',
+      sizes: '180x180',
+    },
+  },
+
   keywords:
     "JioStream, open source, streaming platform, TMDB API, Supabase, Next.js, React, educational project, movie database, TV shows, streaming service, free movies, watch online",
   openGraph: {
@@ -44,7 +61,7 @@ export const metadata: Metadata = {
     siteName: "JioStream",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/US-en-20250317-TRIFECTA-perspective_46e2ea88-09df-4e34-8e0c-2a2e8a2cda94_large.jpg-1QadysCtqt5zBwcjLYLXQi4aOUQub6.jpeg",
+        url: "/play.png",
         width: 1200,
         height: 630,
         alt: "JioStream - Open Source Streaming Platform",
@@ -616,7 +633,7 @@ export default function LandingPage() {
             "@type": "Organization",
             name: "JioStream",
             url: "https://jiostream.netlify.app",
-            logo: "https://jiostream.netlify.app/logo.png",
+            logo: "/play (1).png",
             description: "An open source educational project demonstrating streaming platform functionality",
             sameAs: ["https://github.com/RavnOP/Jio-Cinema-Clone-Webapp-Using-TMDB-API-and-Supabase-Database"],
           }),
