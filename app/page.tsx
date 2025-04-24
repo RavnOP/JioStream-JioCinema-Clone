@@ -31,7 +31,7 @@ import { FAQSection } from "./faq-section"
 import { DisclaimerSection } from "./disclaimer-section"
 
 export const metadata: Metadata = {
-  title: 'JioStream',
+  title: 'JioStream -Streaming Platform | Watch Movies & TV Shows',
   description: 'Open Source Streaming Platform',
   icons: {
     icon: [
