@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "app.movienations.me"
+  const baseUrl = "https://app.movienations.me"
 
   return [
     {
