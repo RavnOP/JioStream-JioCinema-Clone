@@ -31,7 +31,7 @@ import { FAQSection } from "./faq-section"
 import { DisclaimerSection } from "./disclaimer-section"
 
 export const metadata: Metadata = {
-  title: 'JioStream -Streaming Platform | Watch Movies & TV Shows',
+  title: 'MoviesNation -Streaming Platform | Watch Movies & TV Shows',
   description: 'Open Source Streaming Platform',
   icons: {
     icon: [
@@ -52,36 +52,36 @@ export const metadata: Metadata = {
   },
 
   keywords:
-    "JioStream, open source, streaming platform, TMDB API, Supabase, Next.js, React, educational project, movie database, TV shows, streaming service, free movies, watch online",
+    "MoviesNation, open source, streaming platform, TMDB API, Supabase, Next.js, React, testing project, movie database, TV shows, streaming service, free movies, watch online",
   openGraph: {
-    title: "JioStream - Open Source Streaming Platform | Watch Movies & TV Shows",
+    title: "Moviesnation - Open Source Streaming Platform | Watch Movies & TV Shows",
     description:
-      "JioStream is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this educational project.",
-    url: "https://jiostream.netlify.app",
-    siteName: "JioStream",
+      "Moviesnation is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this testing project.",
+    url: "app.movienations.me",
+    siteName: "Moviesnation",
     images: [
       {
         url: "/play.png",
         width: 1200,
         height: 630,
-        alt: "JioStream - Open Source Streaming Platform",
+        alt: "MoviesNation - Open Source Streaming Platform",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "JioStream - Open Source Streaming Platform | Watch Movies & TV Shows",
+    title: "Moviesnation - Open Source Streaming Platform | Watch Movies & TV Shows",
     description:
-      "JioStream is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this educational project.",
+      "MoviesNation is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this testing project.",
     images: [
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/US-en-20250317-TRIFECTA-perspective_46e2ea88-09df-4e34-8e0c-2a2e8a2cda94_large.jpg-1QadysCtqt5zBwcjLYLXQi4aOUQub6.jpeg",
     ],
   },
   alternates: {
-    canonical: "https://jiostream.netlify.app",
+    canonical: "app.movienations.me",
     languages: {
-      "en-US": "https://jiostream.netlify.app/en-US",
+      "en-US": "app.movienations.me/en-US",
     },
   },
 }
@@ -94,7 +94,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 py-4 md:py-6 flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
             <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              JioStream
+              MoviesNation
             </h1>
           </Link>
           <div className="flex items-center gap-3 md:gap-4">
@@ -119,7 +119,7 @@ export default function LandingPage() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-purple-900/20 to-transparent z-20" />
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/US-en-20250317-TRIFECTA-perspective_46e2ea88-09df-4e34-8e0c-2a2e8a2cda94_large.jpg-1QadysCtqt5zBwcjLYLXQi4aOUQub6.jpeg"
-            alt="JioStream streaming library with popular movies and TV shows"
+            alt="Moviesnation streaming library with popular movies and TV shows"
             fill
             className="object-cover object-center"
             priority
@@ -138,11 +138,11 @@ export default function LandingPage() {
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
               Explore Movies & Shows with{" "}
               <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                JioStream
+                Moviesnation
               </span>
             </h2>
             <p className="text-lg md:text-xl text-gray-300 mb-6 md:mb-8 max-w-2xl mx-auto">
-              An open source streaming platform demo built with Next.js, TMDB API, and Supabase. For educational
+              An open source streaming platform demo built with Next.js, TMDB API, and Supabase. For testing
               purposes only.
             </p>
 
@@ -337,7 +337,7 @@ export default function LandingPage() {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-2xl md:text-4xl font-bold mb-6">About This Project</h2>
             <p className="text-gray-300">
-              JioStream is an open source educational project that demonstrates how to build a streaming platform using
+              Moviesnation is an open source testing project that demonstrates how to build a streaming platform using
               modern web technologies. It uses TMDB API for movie and TV show data, Supabase for authentication, and
               embedded streaming URLs for video playback.
             </p>
@@ -369,9 +369,9 @@ export default function LandingPage() {
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Award className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Educational Purpose</h3>
+              <h3 className="text-xl font-bold mb-4">testing Purpose</h3>
               <p className="text-gray-300">
-                This project is for educational purposes only. It demonstrates modern web development techniques and
+                This project is for testing purposes only. It demonstrates modern web development techniques and
                 best practices.
               </p>
             </div>
@@ -468,7 +468,7 @@ export default function LandingPage() {
       <section className="py-16 md:py-24 bg-gradient-to-b from-black to-gray-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 via-purple-900/10 to-transparent"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">How JioStream Works</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">How Moviesnation Works</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 relative">
             {/* Connecting line for desktop */}
@@ -536,7 +536,7 @@ export default function LandingPage() {
                 <div>
                   <h3 className="text-xl font-bold mb-3">Data Protection</h3>
                   <p className="text-gray-300 mb-4">
-                    We take your privacy seriously. JioStream only stores minimal user data required for authentication
+                    We take your privacy seriously. Moviesnation only stores minimal user data required for authentication
                     and user experience features through Supabase.
                   </p>
                   <ul className="space-y-2 text-gray-300">
@@ -571,7 +571,7 @@ export default function LandingPage() {
                 <div>
                   <h3 className="text-xl font-bold mb-3">Technical Implementation</h3>
                   <p className="text-gray-300 mb-4">
-                    JioStream is built with security in mind, using modern web development best practices.
+                    Moviesnation is built with security in mind, using modern web development best practices.
                   </p>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start gap-2">
@@ -611,15 +611,15 @@ export default function LandingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "JioStream",
-            url: "https://jiostream.netlify.app",
+            name: "Moviesnation",
+            url: "app.movienations.me",
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://jiostream.netlify.app/search?q={search_term_string}",
+              target: "app.movienations.me/search?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
             description:
-              "JioStream is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this educational project.",
+              "Moviesnation is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this testing project.",
           }),
         }}
       />
@@ -631,10 +631,10 @@ export default function LandingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "JioStream",
-            url: "https://jiostream.netlify.app",
+            name: "Moviesnation",
+            url: "app.movienations.me",
             logo: "/play (1).png",
-            description: "An open source educational project demonstrating streaming platform functionality",
+            description: "An open source testing project demonstrating streaming platform functionality",
             sameAs: ["https://github.com/RavnOP/Jio-Cinema-Clone-Webapp-Using-TMDB-API-and-Supabase-Database"],
           }),
         }}
@@ -647,7 +647,7 @@ export default function LandingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            name: "JioStream",
+            name: "Moviesnation",
             applicationCategory: "WebApplication",
             operatingSystem: "Any",
             offers: {
@@ -655,7 +655,7 @@ export default function LandingPage() {
               price: "0",
               priceCurrency: "USD",
             },
-            description: "An open source educational project demonstrating streaming platform functionality",
+            description: "An open source testing project demonstrating streaming platform functionality",
           }),
         }}
       />
@@ -670,10 +670,10 @@ export default function LandingPage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "What is JioStream?",
+                name: "What is Moviesnation?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "JioStream is an open source educational project that demonstrates how to build a streaming platform using Next.js, TMDB API, and Supabase. It's designed for learning purposes only.",
+                  text: "Moviesnation is an open source testing project that demonstrates how to build a streaming platform using Next.js, TMDB API, and Supabase. It's designed for learning purposes only.",
                 },
               },
               {
@@ -681,7 +681,7 @@ export default function LandingPage() {
                 name: "Is this a real streaming service?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "No, JioStream is not a real streaming service. It's an educational project that simulates the functionality of a streaming platform. No actual content is hosted or distributed.",
+                  text: "No, Moviesnation is not a real streaming service. It's an testing project that simulates the functionality of a streaming platform. No actual content is hosted or distributed.",
                 },
               },
               {
@@ -689,7 +689,7 @@ export default function LandingPage() {
                 name: "Where does the movie data come from?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "All movie and TV show data is sourced from The Movie Database (TMDB) API. JioStream does not store any content data locally.",
+                  text: "All movie and TV show data is sourced from The Movie Database (TMDB) API. Moviesnation does not store any content data locally.",
                 },
               },
               {
@@ -697,7 +697,7 @@ export default function LandingPage() {
                 name: "What data is stored about users?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "JioStream only stores minimal user data required for authentication and user experience features (watchlist, continue watching, etc.) through Supabase. No personal data is shared or sold.",
+                  text: "Moviesnation only stores minimal user data required for authentication and user experience features (watchlist, continue watching, etc.) through Supabase. No personal data is shared or sold.",
                 },
               },
               {
@@ -705,7 +705,7 @@ export default function LandingPage() {
                 name: "Can I contribute to this project?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes! JioStream is an open source project. You can find the source code on GitHub and contribute by submitting pull requests or reporting issues.",
+                  text: "Yes! Moviesnation is an open source project. You can find the source code on GitHub and contribute by submitting pull requests or reporting issues.",
                 },
               },
             ],

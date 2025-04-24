@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand Section */}
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold mb-4 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              JioStream
+              Moviesnation
             </h3>
             <p className="text-gray-400 text-sm md:text-base mb-4">
               Your one-stop destination for movies, TV shows, and more. Watch anytime, anywhere.
@@ -121,9 +121,9 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          <p className="text-gray-400 text-sm md:text-base">© 2023 JioStream. All rights reserved.</p>
+          <p className="text-gray-400 text-sm md:text-base">© 2023 Moviesnation. All rights reserved.</p>
           <p className="text-gray-500 text-xs md:text-sm mt-2 md:mt-0">
-            This is an app created for educational purposes only.
+            This is an app created for testing purposes only.
           </p>
         </div>
       </div>

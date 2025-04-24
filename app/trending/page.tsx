@@ -12,8 +12,8 @@ import { SearchBar } from "@/components/search-bar"
 import { MobileNav } from "@/components/mobile-nav"
 
 export const metadata = {
-  title: "Trending | JioStream",
-  description: "Browse trending content on JioStream",
+  title: "Trending | Moviesnation",
+  description: "Browse trending content on Moviesnation",
 }
 
 export default function TrendingPage({ searchParams }: { searchParams: { page?: string; time?: string } }) {

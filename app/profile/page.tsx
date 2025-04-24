@@ -4,8 +4,8 @@ import { Header } from "@/app/header"
 import { ProfileContent } from "@/app/profile/profile-content"
 
 export const metadata = {
-  title: "My Profile | JioStream",
-  description: "Manage your JioStream profile",
+  title: "My Profile | Moviesnation",
+  description: "Manage your Moviesnation profile",
 }
 
 export default function ProfilePage() {

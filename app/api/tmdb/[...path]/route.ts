@@ -36,7 +36,7 @@ export async function GET(request: NextRequest, context: { params: { path: strin
     const response = await fetch(url, {
       headers: {
         Accept: "application/json",
-        "User-Agent": "JioStream/1.0",
+        "User-Agent": "Moviesnation/1.0",
       },
       next: { revalidate: 3600 }, // Cache server-side for 1 hour
     });

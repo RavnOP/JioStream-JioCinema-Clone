@@ -14,8 +14,8 @@ import { SearchBar } from "@/components/search-bar";
 import { MobileNav } from "@/components/mobile-nav";
 
 export const metadata = {
-  title: "TV Shows | JioStream",
-  description: "Browse all TV shows on JioStream",
+  title: "TV Shows | Moviesnation",
+  description: "Browse all TV shows on Moviesnation",
 };
 
 export default function ShowsPage({

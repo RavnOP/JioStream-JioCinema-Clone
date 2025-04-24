@@ -5,9 +5,9 @@ import { Home, Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "Page Not Found | JioStream",
+  title: "Page Not Found | Moviesnation",
   description:
-    "The page you're looking for doesn't exist. Return to JioStream homepage to continue streaming movies and TV shows.",
+    "The page you're looking for doesn't exist. Return to Moviesnation homepage to continue streaming movies and TV shows.",
 }
 
 export default function NotFound() {

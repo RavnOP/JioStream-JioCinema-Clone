@@ -22,8 +22,8 @@ import { LoadingSpinner } from "@/components/loading-spinner"
 export async function generateMetadata({ params }: { params: { id: string } }) {
   if (!params.id) {
     return {
-      title: "Movie | JioStream",
-      description: "Watch movies on JioStream",
+      title: "Movie | Moviesnation",
+      description: "Watch movies on Moviesnation",
     }
   }
 
@@ -32,10 +32,10 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   try {
     const movie = await fetchTMDB(`movie/${id}`)
     return {
-      title: `${movie.title} | JioStream`,
+      title: `${movie.title} | Moviesnation`,
       description: movie.overview,
       openGraph: {
-        title: `${movie.title} | JioStream`,
+        title: `${movie.title} | Moviesnation`,
         description: movie.overview,
         images: [
           {
@@ -52,8 +52,8 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   } catch (error) {
     console.error("Error generating metadata:", error)
     return {
-      title: "Movie | JioStream",
-      description: "Watch movies on JioStream",
+      title: "Movie | Moviesnation",
+      description: "Watch movies on Moviesnation",
     }
   }
 }

@@ -8,7 +8,7 @@ export function DisclaimerSection() {
             <h2 className="text-xl md:text-2xl font-bold mb-4 text-center">Important Disclaimer</h2>
             <div className="text-gray-300 space-y-4">
               <p>
-                JioStream is an <strong>educational open source project</strong> created to demonstrate web development
+                Moviesnation is an <strong>testing open source project</strong> created to demonstrate web development
                 techniques. It is not affiliated with any commercial streaming service.
               </p>
               <p>
@@ -24,7 +24,7 @@ export function DisclaimerSection() {
                 (watchlist, continue watching, etc.) through Supabase.
               </p>
               <p className="font-semibold">
-                JioStream is not intended for commercial use and should only be used for learning and educational
+                Moviesnation is not intended for commercial use and should only be used for learning and testing
                 purposes.
               </p>
             </div>

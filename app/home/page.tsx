@@ -12,9 +12,9 @@ import { Header } from "@/app/header";
 import { Flame, Clapperboard, Tv2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "JioStream - Home | Watch Movies, TV Shows, and more",
-  description: "Stream the latest movies, TV shows, and premium content on JioStream.",
-  keywords: "JioStream, movies, TV shows, streaming, watch online",
+  title: "Moviesnation - Home | Watch Movies, TV Shows, and more",
+  description: "Stream the latest movies, TV shows, and premium content on Moviesnation.",
+  keywords: "Moviesnation, movies, TV shows, streaming, watch online",
 };
 export default function HomePage() {
   return (

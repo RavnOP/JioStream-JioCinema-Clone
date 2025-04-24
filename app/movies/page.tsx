@@ -14,8 +14,8 @@ import { SearchBar } from "@/components/search-bar";
 import { MobileNav } from "@/components/mobile-nav";
 
 export const metadata = {
-  title: "Movies | JioStream",
-  description: "Browse all movies on JioStream",
+  title: "Movies | Moviesnation",
+  description: "Browse all movies on Moviesnation",
 };
 
 export default function MoviesPage({

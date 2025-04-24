@@ -7,8 +7,8 @@ import { MobileNav } from "@/components/mobile-nav"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export const metadata = {
-  title: "Help Center | JioStream",
-  description: "Get help with JioStream streaming service",
+  title: "Help Center | Moviesnation",
+  description: "Get help with Moviesnation streaming service",
 }
 
 export default function HelpPage() {
@@ -20,7 +20,7 @@ export default function HelpPage() {
             <MobileNav />
             <Link href="/" className="flex items-center">
               <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                JioStream
+                Moviesnation
               </h1>
             </Link>
           </div>
@@ -98,11 +98,11 @@ export default function HelpPage() {
               </AccordionItem>
               <AccordionItem value="item-2" className="border border-gray-800 rounded-lg overflow-hidden">
                 <AccordionTrigger className="px-4 py-3 bg-gray-900 hover:bg-gray-800">
-                  What devices can I watch JioStream on?
+                  What devices can I watch Moviesnation on?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 py-3 bg-gray-900/50">
                   <p className="text-gray-300">
-                    JioStream is available on a wide range of devices including smartphones (iOS and Android), tablets,
+                    Moviesnation is available on a wide range of devices including smartphones (iOS and Android), tablets,
                     web browsers, smart TVs, and streaming devices like Amazon Fire Stick, Roku, and Apple TV.
                   </p>
                 </AccordionContent>
@@ -113,7 +113,7 @@ export default function HelpPage() {
                 </AccordionTrigger>
                 <AccordionContent className="px-4 py-3 bg-gray-900/50">
                   <p className="text-gray-300">
-                    All content on JioStream is free to access. Simply create an account and start watching your
+                    All content on Moviesnation is free to access. Simply create an account and start watching your
                     favorite movies and shows.
                   </p>
                 </AccordionContent>
@@ -142,7 +142,7 @@ export default function HelpPage() {
                 </AccordionTrigger>
                 <AccordionContent className="px-4 py-3 bg-gray-900/50">
                   <p className="text-gray-300">
-                    You can stream JioStream on up to 2 devices simultaneously with a single account.
+                    You can stream Moviesnation on up to 2 devices simultaneously with a single account.
                   </p>
                 </AccordionContent>
               </AccordionItem>

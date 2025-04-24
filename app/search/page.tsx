@@ -15,19 +15,19 @@ export async function generateMetadata({ searchParams }: { searchParams: { q: st
   return {
     title: query ? `Search results for "${query}"` : "Search Movies and TV Shows",
     description: query
-      ? `Browse search results for "${query}" - find movies, TV shows and more on JioStream`
-      : "Search for your favorite movies, TV shows, actors and more on JioStream",
+      ? `Browse search results for "${query}" - find movies, TV shows and more on Moviesnation`
+      : "Search for your favorite movies, TV shows, actors and more on Moviesnation",
     openGraph: {
-      title: query ? `Search results for "${query}" | JioStream` : "Search | JioStream",
+      title: query ? `Search results for "${query}" | Moviesnation` : "Search | Moviesnation",
       description: query
-        ? `Browse search results for "${query}" - find movies, TV shows and more on JioStream`
-        : "Search for your favorite movies, TV shows, actors and more on JioStream",
+        ? `Browse search results for "${query}" - find movies, TV shows and more on Moviesnation`
+        : "Search for your favorite movies, TV shows, actors and more on Moviesnation",
     },
     twitter: {
-      title: query ? `Search results for "${query}" | JioStream` : "Search | JioStream",
+      title: query ? `Search results for "${query}" | Moviesnation` : "Search | Moviesnation",
       description: query
-        ? `Browse search results for "${query}" - find movies, TV shows and more on JioStream`
-        : "Search for your favorite movies, TV shows, actors and more on JioStream",
+        ? `Browse search results for "${query}" - find movies, TV shows and more on Moviesnation`
+        : "Search for your favorite movies, TV shows, actors and more on Moviesnation",
     },
   }
 }
@@ -44,7 +44,7 @@ export default async function SearchPage({ searchParams }: { searchParams: { q: 
               <MobileNav />
               <Link href="/" className="flex items-center">
                 <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                  JioStream
+                  Moviesnation
                 </h1>
               </Link>
             </div>
@@ -100,7 +100,7 @@ export default async function SearchPage({ searchParams }: { searchParams: { q: 
             <MobileNav />
             <Link href="/" className="flex items-center">
               <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                JioStream
+                Moviesnation
               </h1>
             </Link>
           </div>

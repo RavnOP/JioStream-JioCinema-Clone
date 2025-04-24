@@ -8,34 +8,34 @@ interface FAQItem {
 export function FAQSection() {
   const faqItems: FAQItem[] = [
     {
-      question: "What is JioStream?",
+      question: "What is Moviesnation?",
       answer:
-        "JioStream is an open source educational project that demonstrates how to build a streaming platform using Next.js, TMDB API, and Supabase. It's designed for learning purposes only.",
+        "Moviesnation is an open source testing project that demonstrates how to build a streaming platform using Next.js, TMDB API, and Supabase. It's designed for learning purposes only.",
     },
     {
       question: "Is this a real streaming service?",
       answer:
-        "No, JioStream is not a real streaming service. It's an educational project that simulates the functionality of a streaming platform. No actual content is hosted or distributed.",
+        "No, Moviesnation is not a real streaming service. It's an testing project that simulates the functionality of a streaming platform. No actual content is hosted or distributed.",
     },
     {
       question: "Where does the movie data come from?",
       answer:
-        "All movie and TV show data is sourced from The Movie Database (TMDB) API. JioStream does not store any content data locally.",
+        "All movie and TV show data is sourced from The Movie Database (TMDB) API. Moviesnation does not store any content data locally.",
     },
     {
       question: "What data is stored about users?",
       answer:
-        "JioStream only stores minimal user data required for authentication and user experience features (watchlist, continue watching, etc.) through Supabase. No personal data is shared or sold.",
+        "Moviesnation only stores minimal user data required for authentication and user experience features (watchlist, continue watching, etc.) through Supabase. No personal data is shared or sold.",
     },
     {
       question: "Can I contribute to this project?",
       answer:
-        "Yes! JioStream is an open source project. You can find the source code on GitHub and contribute by submitting pull requests or reporting issues.",
+        "Yes! Moviesnation is an open source project. You can find the source code on GitHub and contribute by submitting pull requests or reporting issues.",
     },
     {
-      question: "Is JioStream available on mobile devices?",
+      question: "Is Moviesnation available on mobile devices?",
       answer:
-        "Yes, JioStream is built with responsive design principles, making it accessible on mobile phones, tablets, and desktop computers. The interface adapts to different screen sizes for optimal viewing.",
+        "Yes, Moviesnation is built with responsive design principles, making it accessible on mobile phones, tablets, and desktop computers. The interface adapts to different screen sizes for optimal viewing.",
     },
     {
       question: "How can I report issues or bugs?",
@@ -43,14 +43,14 @@ export function FAQSection() {
         "You can report issues or bugs by opening an issue on our GitHub repository. We welcome feedback and contributions from the community to improve the project.",
     },
     {
-      question: "What technologies were used to build JioStream?",
+      question: "What technologies were used to build Moviesnation?",
       answer:
-        "JioStream is built using Next.js for the frontend framework, Tailwind CSS for styling, Supabase for authentication and database, and the TMDB API for movie and TV show data. It also uses TypeScript for type safety and SWR for data fetching.",
+        "Moviesnation is built using Next.js for the frontend framework, Tailwind CSS for styling, Supabase for authentication and database, and the TMDB API for movie and TV show data. It also uses TypeScript for type safety and SWR for data fetching.",
     },
     {
-      question: "Can I use JioStream code for my own projects?",
+      question: "Can I use Moviesnation code for my own projects?",
       answer:
-        "Yes, JioStream is open source and you can use the code for your own educational or personal projects. Please check the license on GitHub for specific terms and make sure to comply with the TMDB API terms of use.",
+        "Yes, Moviesnation is open source and you can use the code for your own testing or personal projects. Please check the license on GitHub for specific terms and make sure to comply with the TMDB API terms of use.",
     },
   ]
 

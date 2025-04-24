@@ -6,8 +6,8 @@ import { MobileNav } from "@/components/mobile-nav"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
-  title: "Terms of Use | JioStream",
-  description: "Terms and conditions for using JioStream",
+  title: "Terms of Use | Moviesnation",
+  description: "Terms and conditions for using Moviesnation",
 }
 
 export default function TermsPage() {
@@ -19,7 +19,7 @@ export default function TermsPage() {
             <MobileNav />
             <Link href="/" className="flex items-center">
               <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                JioStream
+                Moviesnation
               </h1>
             </Link>
           </div>
@@ -60,19 +60,19 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">1. Introduction</h2>
             <p>
-              Welcome to JioStream. These Terms of Use govern your use of the JioStream service and website. By using,
-              visiting, or browsing the JioStream service, you accept and agree to be bound by these Terms of Use.
+              Welcome to Moviesnation. These Terms of Use govern your use of the Moviesnation service and website. By using,
+              visiting, or browsing the Moviesnation service, you accept and agree to be bound by these Terms of Use.
             </p>
             <p>
-              The JioStream service is provided by Viacom18 Media Private Limited, and its affiliates and subsidiaries
-              (collectively "JioStream").
+              The Moviesnation service is provided by Viacom18 Media Private Limited, and its affiliates and subsidiaries
+              (collectively "Moviesnation").
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">2. Membership</h2>
             <p>
-              2.1 <strong>Free Access:</strong> JioStream offers free access to all content. You need to create an
+              2.1 <strong>Free Access:</strong> Moviesnation offers free access to all content. You need to create an
               account to access the service.
             </p>
             <p>
@@ -82,14 +82,14 @@ export default function TermsPage() {
           </section>
 
           <section className="space-y-4">
-            <h2 className="text-xl font-bold text-white">3. JioStream Service</h2>
+            <h2 className="text-xl font-bold text-white">3. Moviesnation Service</h2>
             <p>
               3.1 <strong>Content Availability:</strong> The availability of movies, TV shows, and other content may
               change from time to time. The quality of the display may vary from device to device and may be affected by
               various factors, including your location, internet bandwidth, and the device you are using.
             </p>
             <p>
-              3.2 <strong>Compatible Devices:</strong> You can access JioStream through various devices, including smart
+              3.2 <strong>Compatible Devices:</strong> You can access Moviesnation through various devices, including smart
               TVs, streaming media players, mobile phones, tablets, and computers. Not all content is available in all
               formats or on all devices.
             </p>
@@ -103,7 +103,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-bold text-white">4. Passwords and Account Access</h2>
             <p>
               4.1 <strong>Account Security:</strong> You are responsible for maintaining the confidentiality of your
-              account credentials and for all activities that occur under your account. You agree to notify JioStream
+              account credentials and for all activities that occur under your account. You agree to notify Moviesnation
               immediately of any unauthorized use of your account.
             </p>
             <p>
@@ -119,13 +119,13 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">5. Intellectual Property</h2>
             <p>
-              5.1 <strong>Copyright and Trademarks:</strong> The JioStream service, including all content, features, and
+              5.1 <strong>Copyright and Trademarks:</strong> The Moviesnation service, including all content, features, and
               functionality, is protected by copyright, trademark, and other intellectual property laws.
             </p>
             <p>
               5.2 <strong>Restrictions:</strong> You agree not to reproduce, distribute, modify, display, perform,
               publish, license, create derivative works from, or sell any information, software, products, or services
-              obtained from the JioStream service.
+              obtained from the Moviesnation service.
             </p>
           </section>
 
@@ -138,24 +138,24 @@ export default function TermsPage() {
             <p>
               6.2 <strong>Content Restrictions:</strong> You agree not to archive, download, reproduce, distribute,
               modify, display, perform, publish, license, create derivative works from, offer for sale, or use content
-              and information contained on or obtained from the JioStream service.
+              and information contained on or obtained from the Moviesnation service.
             </p>
             <p>
               6.3 <strong>Service Interference:</strong> You agree not to circumvent, remove, alter, deactivate,
-              degrade, or thwart any of the content protections in the JioStream service or use any robot, spider,
-              scraper, or other automated means to access the JioStream service.
+              degrade, or thwart any of the content protections in the Moviesnation service or use any robot, spider,
+              scraper, or other automated means to access the Moviesnation service.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">7. Disclaimers and Limitations of Liability</h2>
             <p>
-              7.1 <strong>Service "As Is":</strong> The JioStream service is provided "as is" and without warranty or
-              condition. JioStream does not guarantee, represent, or warrant that your use of the service will be
+              7.1 <strong>Service "As Is":</strong> The Moviesnation service is provided "as is" and without warranty or
+              condition. Moviesnation does not guarantee, represent, or warrant that your use of the service will be
               uninterrupted or error-free.
             </p>
             <p>
-              7.2 <strong>Limitation of Liability:</strong> To the extent permitted by law, in no event shall JioStream
+              7.2 <strong>Limitation of Liability:</strong> To the extent permitted by law, in no event shall Moviesnation
               be liable for any indirect, incidental, special, consequential, or punitive damages.
             </p>
           </section>
@@ -172,15 +172,15 @@ export default function TermsPage() {
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">9. Changes to Terms of Use</h2>
             <p>
-              JioStream may, from time to time, change these Terms of Use. We will notify you of any material changes by
-              posting the new Terms of Use on the JioStream website and, if you have provided us with your email
+              Moviesnation may, from time to time, change these Terms of Use. We will notify you of any material changes by
+              posting the new Terms of Use on the Moviesnation website and, if you have provided us with your email
               address, by sending an email to that address.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-xl font-bold text-white">10. Contact Information</h2>
-            <p>If you have any questions about these Terms of Use, please contact us at support@JioStream.com.</p>
+            <p>If you have any questions about these Terms of Use, please contact us at support@Moviesnation.com.</p>
           </section>
         </div>
       </div>

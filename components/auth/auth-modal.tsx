@@ -52,7 +52,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
               <div className="mx-auto mb-4 h-12 w-12 rounded-full bg-gray-800 flex items-center justify-center">
                 <User className="h-6 w-6 text-blue-500" />
               </div>
-              <DialogTitle className="text-xl">Welcome to JioStream</DialogTitle>
+              <DialogTitle className="text-xl">Welcome to Moviesnation</DialogTitle>
               <DialogDescription className="text-gray-400">Sign in or create an account to continue</DialogDescription>
             </DialogHeader>
 

@@ -1,4 +1,4 @@
-﻿# 🎬 JioStream - Open Source Streaming Platform
+﻿# 🎬 Moviesnation - Open Source Streaming Platform
 ![Screenshot_23-3-2025_164830_jiostream netlify app](https://github.com/user-attachments/assets/fb3ec91d-8f18-43ef-8bed-6a7af77ed73f)
 <div align="center">
 
@@ -11,9 +11,9 @@
 
 ## 🌟 Overview
 
-JioStream is an open-source streaming platform demo that showcases how modern streaming services work. Built with Next.js, it uses TMDB API for content data and Supabase for authentication and user management.
+Moviesnation is an open-source streaming platform demo that showcases how modern streaming services work. Built with Next.js, it uses TMDB API for content data and Supabase for authentication and user management.
 
-🔴 [Live Demo](https://jiostream.netlify.app/) | 🐛 [Report Bug](https://github.com/RavnOP/Jio-Cinema-Clone-Webapp-Using-TMDB-API-and-Supabase-Database/issues)
+🔴 [Live Demo](https://Moviesnation.netlify.app/) | 🐛 [Report Bug](https://github.com/RavnOP/Jio-Cinema-Clone-Webapp-Using-TMDB-API-and-Supabase-Database/issues)
 
 ## ✨ Features
 
@@ -78,7 +78,7 @@ NEXT_PUBLIC_TMDB_API_KEY=
 ## 📚 Project Structure
 
 ```
-jiostream/
+Moviesnation/
 ├── app/                   # Next.js 13 app directory
 ├── components/           # Reusable components
 ├── lib/                 # Utility functions and hooks
@@ -120,9 +120,9 @@ This is an educational project and is not intended for commercial use. All movie
 ---
 
 ## Demo Images 📷📸🎥
-![JioStream Landing Page](https://github.com/user-attachments/assets/39f00c85-2191-405a-a655-620290f85ef8)
-![JioStream Home Page](https://github.com/user-attachments/assets/bd526a42-817a-4344-b55f-8a91d2973ef5)
-![JioStream Detail Page](https://github.com/user-attachments/assets/a6853a88-7776-4c2f-9552-537980291641)
+![Moviesnation Landing Page](https://github.com/user-attachments/assets/39f00c85-2191-405a-a655-620290f85ef8)
+![Moviesnation Home Page](https://github.com/user-attachments/assets/bd526a42-817a-4344-b55f-8a91d2973ef5)
+![Moviesnation Detail Page](https://github.com/user-attachments/assets/a6853a88-7776-4c2f-9552-537980291641)
 
 
 <div align="center">

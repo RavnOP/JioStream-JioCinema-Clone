@@ -8,9 +8,9 @@ import { SearchBar } from "@/components/search-bar"
 import { MobileNav } from "@/components/mobile-nav"
 
 export const metadata = {
-  title: "About JioStream | Open Source Streaming Platform",
+  title: "About Moviesnation | Open Source Streaming Platform",
   description:
-    "Learn about JioStream, an open source educational project that nstrates streaming platform functionality using Next.js, TMDB API, and Supabase.",
+    "Learn about Moviesnation, an open source testing project that nstrates streaming platform functionality using Next.js, TMDB API, and Supabase.",
 }
 
 export default function AboutPage() {
@@ -23,12 +23,12 @@ export default function AboutPage() {
           <Link href="/" className="mr-2 text-gray-400 hover:text-white">
             <ChevronLeft className="h-5 w-5" />
           </Link>
-          <h1 className="text-2xl sm:text-3xl font-bold">About JioStream</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold">About Moviesnation</h1>
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="relative h-64 sm:h-80 rounded-xl overflow-hidden">
-            <Image src="https://github.com/user-attachments/assets/fb3ec91d-8f18-43ef-8bed-6a7af77ed73f" alt="JioStream Project" fill className="object-cover" />
+            <Image src="https://github.com/user-attachments/assets/fb3ec91d-8f18-43ef-8bed-6a7af77ed73f" alt="Moviesnation Project" fill className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-600/20 border border-blue-500/30 text-blue-400 text-sm mb-2">
@@ -41,20 +41,20 @@ export default function AboutPage() {
 
           <div className="space-y-6">
             <p className="text-gray-300">
-              JioStream is an open source educational project that nstrates how to build a modern streaming platform
+              Moviesnation is an open source testing project that nstrates how to build a modern streaming platform
               using Next.js, TMDB API, and Supabase. This project is designed for learning purposes only and is not
               affiliated with any commercial streaming service.
             </p>
 
             <p className="text-gray-300">
-              Created as a nstration of web development techniques and best practices, JioStream showcases how to
+              Created as a nstration of web development techniques and best practices, Moviesnation showcases how to
               build a responsive, feature-rich application with authentication, data fetching, and user experience
               features similar to popular streaming platforms.
             </p>
 
             <h3 className="text-xl font-bold mt-8">Project Goals</h3>
             <p className="text-gray-300">
-              The primary goal of JioStream is to provide a learning resource for developers interested in building
+              The primary goal of Moviesnation is to provide a learning resource for developers interested in building
               complex web applications. By exploring the source code, developers can learn about:
             </p>
             <ul className="list-disc pl-6 text-gray-300 space-y-2 mt-4">
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <h3 className="text-xl font-bold mt-8">Important Disclaimer</h3>
             <div className="bg-gray-900 p-6 rounded-lg mt-4">
               <p className="text-gray-300">
-                JioStream is an <strong>educational project</strong> and is not intended for commercial use. This
+                Moviesnation is an <strong>testing project</strong> and is not intended for commercial use. This
                 application:
               </p>
               <ul className="list-disc pl-6 text-gray-300 space-y-2 mt-2">
@@ -119,13 +119,13 @@ export default function AboutPage() {
               </ul>
               <p className="text-gray-300 mt-4">
                 All movie and TV show data is the property of their respective owners. This project respects copyright
-                laws and is designed solely for educational and nstration purposes.
+                laws and is designed solely for testing and nstration purposes.
               </p>
             </div>
 
             <h3 className="text-xl font-bold mt-8">Our Team</h3>
             <p className="text-gray-300">
-              JioStream is an open source project maintained by a community of developers passionate about web
+              Moviesnation is an open source project maintained by a community of developers passionate about web
               development and learning. We welcome contributions from anyone interested in improving the project or
               learning from it.
             </p>

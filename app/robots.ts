@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/private/"],
     },
-    sitemap: "https://jiostream.movienations.me/sitemap.xml",
+    sitemap: "https://app.movienations.me/sitemap.xml",
   }
 }
 

@@ -5,8 +5,8 @@ import { Header } from "@/app/header"
 import { WatchlistContent } from "@/app/watchlist/watchlist-content"
 
 export const metadata = {
-  title: "My Watchlist | JioStream",
-  description: "View and manage your watchlist on JioStream",
+  title: "My Watchlist | Moviesnation",
+  description: "View and manage your watchlist on Moviesnation",
 }
 
 export default function WatchlistPage() {

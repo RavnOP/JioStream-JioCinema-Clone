@@ -34,8 +34,8 @@ interface ShowPageProps {
 export async function generateMetadata({ params }: { params: { id: string } }) {
   if (!params.id) {
     return {
-      title: "TV Show | JioStream",
-      description: "Watch TV shows on JioStream",
+      title: "TV Show | Moviesnation",
+      description: "Watch TV shows on Moviesnation",
     }
   }
 
@@ -44,14 +44,14 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   try {
     const show = await fetchTMDB(`tv/${id}`)
     return {
-      title: `${show.name} | JioStream`,
+      title: `${show.name} | Moviesnation`,
       description: show.overview,
     }
   } catch (error) {
     console.error("Error generating metadata:", error)
     return {
-      title: "TV Show | JioStream",
-      description: "Watch TV shows on JioStream",
+      title: "TV Show | Moviesnation",
+      description: "Watch TV shows on Moviesnation",
     }
   }
 }
