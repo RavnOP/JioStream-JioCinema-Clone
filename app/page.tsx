@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Moviesnation - Open Source Streaming Platform | Watch Movies & TV Shows",
     description:
       "Moviesnation is an open source streaming platform demo built with Next.js, TMDB API, and Supabase. Explore movies and TV shows in this testing project.",
-    url: "app.movienations.me",
+    url: "movienations.me",
     siteName: "Moviesnation",
     images: [
       {
@@ -79,9 +79,9 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "app.movienations.me",
+    canonical: "movienations.me",
     languages: {
-      "en-US": "app.movienations.me/en-US",
+      "en-US": "movienations.me/en-US",
     },
   },
 }
@@ -212,7 +212,7 @@ export default function LandingPage() {
                 <Film className="h-5 w-5 text-blue-500" /> Movinations
               </h3>
               <p className="text-gray-300 mb-4">Discover an exciting world of movies with Movinations.</p>
-              <Link href="https://movienations.me" target="_blank">
+              <Link href="https://app.movienations.me" target="_blank">
                 <Button variant="outline" className="text-blue-500 border-blue-500 hover:bg-blue-500 hover:text-white">
                   Visit Movinations
                 </Button>
@@ -271,8 +271,8 @@ export default function LandingPage() {
               <h3 className="text-xl font-bold mb-4 flex items-center justify-center gap-2">
                 <Star className="h-5 w-5 text-blue-500" /> CinemaHub
               </h3>
-              <p className="text-gray-300 mb-4">An awesome platform to explore more content related to movies.</p>
-              <Link href="https://movienations.me" target="_blank">
+              <p className="text-gray-300 mb-4">An awesome platform to explore more content related to movies and Tv Show with Download Feature.</p>
+              <Link href="https://watch.movienations.me" target="_blank">
                 <Button variant="outline" className="text-blue-500 border-blue-500 hover:bg-blue-500 hover:text-white">
                   Visit CinemaHub
                 </Button>
@@ -612,10 +612,10 @@ export default function LandingPage() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Moviesnation",
-            url: "app.movienations.me",
+            url: "movienations.me",
             potentialAction: {
               "@type": "SearchAction",
-              target: "app.movienations.me/search?q={search_term_string}",
+              target: "movienations.me/search?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
             description:
@@ -632,7 +632,7 @@ export default function LandingPage() {
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Moviesnation",
-            url: "app.movienations.me",
+            url: "movienations.me",
             logo: "/play (1).png",
             description: "An open source testing project demonstrating streaming platform functionality",
             sameAs: ["https://github.com/RavnOP/Jio-Cinema-Clone-Webapp-Using-TMDB-API-and-Supabase-Database"],
